@@ -1,0 +1,13 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="XStatic_Error.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:maui="using:Microsoft.Maui">
+
+<maui:MauiWinUIApplication.Resources >
+
+  <x:Static x:Key="empty" Member="sys:String.Empty" />
+
+ </maui:MauiWinUIApplication.Resources>
+</maui:MauiWinUIApplication>
